@@ -33,12 +33,7 @@ This is a Hospital Management System developed using **Spring Boot** and **Sprin
 - `src/main/resources` - Configuration files (e.g., `application.properties`)
 - `pom.xml` - Maven build configuration
 
-## 🔧 Setup Instructions
 
-1. **Clone the Repository:**
-   ```bash
-   git clone <your-repo-url>
-````
 
 2. **Open in Spring Tool Suite (STS):**
 
@@ -62,6 +57,46 @@ This is a Hospital Management System developed using **Spring Boot** and **Sprin
 * Java 8 or above
 * Maven 3.x
 * Spring Tool Suite (STS)
+
+## ✅  “Testing API with Postman”
+* 📌 Example requests for:
+
+  * Creating a patient (`POST`)
+  * Getting patient data (`GET`)
+  * Updating a patient (`PUT`)
+  * Deleting a patient (`DELETE`)
+
+---
+
+## 📬 Testing the API with Postman
+
+You can test the REST APIs using [Postman](https://www.postman.com/). Below are some common requests:
+
+### 🔹 1 Add a New Patient
+**Method:** `POST`  
+**URL:** `http://localhost:8080/api/patients`  
+
+
+### 🔹 2. Get All Patients
+
+**Method:** `GET`
+**URL:** `http://localhost:8080/api/patients`
+
+---
+
+### 🔹 3. Get Patient by ID
+
+**Method:** `GET`
+**URL:** `http://localhost:8080/api/patients/{id}`
+*Replace `{id}` with the patient's ID*
+
+---
+
+### 🔹 4. Update Patient
+
+**Method:** `PUT`
+**URL:** `http://localhost:8080/api/patients/{id}`
+
 
 Further we can connect frontend part by developing the website using web frameworks like ReactJs.
 
